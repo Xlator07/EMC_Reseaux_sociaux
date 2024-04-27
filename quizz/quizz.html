@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizz</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+  <h2 id="question">Question goes here</h2><br/>
+  <div id="choices" class="choices-container">
+    <button class="choice">Choice 1</button>
+    <button class="choice">Choice 2</button>
+    <button class="choice">Choice 3</button>
+    <button class="choice">Choice 4</button>
+  </div>
+  <button id="submit-btn">Valider</button>
+  <p id="feedback"></p>
+  <p id="score"></p>
+</div>
+
+<div class="progress-bar">
+  <div class="progress-bubbles"></div>
+</div>
+
+<div id="score-page" class="score-page hidden">
+  <h2>Score</h2>
+  <div id="score-result" class="score-result"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
